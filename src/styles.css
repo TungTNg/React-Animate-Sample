@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #222;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.app {
+  padding: 20px;
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  background: #def;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn--add {
+  background: #3498db;
+  color: #fff;
+  padding: 6px 15px;
+  margin: 20px 0;
+}
+
+.btn--delete {
+  padding: 4px 10px;
+  background: #e74c3c;
+  color: white;
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* To collapse borders */
+  margin-top: -1px;
+}
